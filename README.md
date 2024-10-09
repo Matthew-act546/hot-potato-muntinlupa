@@ -24,12 +24,19 @@ Hot Potato is a website designed to showcase and promote the offerings of Hot Po
 - **Django**
 
 ## Setup and Installation
-
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hot-potato.git
+    ```bash
+    git clone git@github.com:Matthew-act546/hot-potato-muntinlupa.git
 
-
+2. Change directory to hot-potato-muntinlupa:
+    ```bash
+    cd hot-potato-muntinlupa
+3. npm install
+    ```bash
+    npm install
+3. npm start
+    ```bash
+    npm start
 ## License and Usage
 
 This project is created for personal showcase purposes only. 
