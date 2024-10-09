@@ -1,0 +1,65 @@
+@use '../custom' as *;
+
+
+#home {
+    background: rgba(253,169,2,0.2);
+}
+
+.row2 {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.home-hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.home-img {
+    @media (max-width: 575px) {
+        margin: 15px;
+        width: 220px;
+        height: 300px;
+    }
+
+    @media (min-width: 576px) {
+        margin: 50px 20px;
+        width: 800;
+        height: 400px;
+    }
+
+    @media (min-width: 768px) {
+        margin: 50px 20px;
+        width: 800;
+        height: 400px;
+    }
+
+    @media (min-width: 1200px) {
+        margin: 50px 20px;
+        max-width: 100%;
+        width: 1000px;
+        height: 470px;
+    }
+}
+
+.home-hero1 {
+    @media (max-width: 575px) {
+        margin: 0px 20px 50px 20px;
+    }
+    @media (min-width: 1200px) { 
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    @media (min-width: 768px) { 
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.row-main {
+    display: flex;
+    justify-content: center;
+}

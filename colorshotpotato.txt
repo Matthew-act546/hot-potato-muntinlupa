@@ -1,0 +1,64 @@
+accent color hsl, rgb and hex
+light orange **primary
+	rgb: rgb(253,167,2) 
+	hsl: hsl(26, 236,120)
+	hex: #fda902
+
+dark orange *secondary
+	rgb: rgb(238,117,28) 
+	hsl: hsl(17, 207,125)
+	hex: #ee751c
+
+
+light
+	rgb: rgb(247,252,248) 
+	hsl: hsl(88, 109, 235)
+	hex: #f7fcf8
+
+
+========================= DESCRIPTION(ABOUT SECTION) =========================
+about 1 (cheese)
+	Our Cheese flavor at Hot Potato is anything but ordinary.
+	It’s a burst of rich, creamy goodness that coats every fry, 
+	delivering a cheesy experience that’s both bold and unforgettable. 
+	Each bite is packed with intense, mouthwatering flavor that goes 
+	beyond your typical cheese—making it the ultimate comfort snack 
+	that satisfies in every way.
+
+about 2 (Barbecue)
+	Our Barbeque flavor is like biting into a sizzling, freshly grilled barbecue—smoky, savory, and perfectly seasoned. 
+	The rich aroma alone is enough to make your mouth water, and with each crispy fry, you’ll enjoy a bold taste, 
+	flavorful, and drool-worthy.
+
+about 3 (sour cream)
+	Our Sour & Cream flavor is the perfect mix of smooth and tangy,
+	making each bite super tasty. With just the right balance of creaminess and a little zing, 
+	these fries will surely keep you coming back for more!
+
+about 4 (sweet corn)	
+	Our best-selling Sweet Corn flavor is packed with amazing, mouthwatering taste. 
+	It’s so flavorful and delicious that you’ll be pleasantly surprised by how yummy each bite is!
+
+about 5 (cheesesticks)
+	Our cheese sticks are the perfect snack crispy on the outside, with a cheesy, delicious inside. 
+	Each bite is packed with rich, tasty cheese that’s just the right amount, making them a must-try!
+
+about 6 (Hot potato short description) (i think eto nalang usp)
+	Hot Potato is your go-to snack spot at Caps Foodpark, near Montessori School. 
+	We serve delicious fries in unique flavors and tasty cheese sticks that will satisfy your cravings!
+
+Usp 
+	At Hot Potato Muntinlupa, our fries aren't just crispy they’re crave-crushers! With flavors like classic cheese, 
+	bold barbeque, tangy sour & cream, and our best-selling sweet corn, every bite is a flavor explosion that keeps 
+	you coming back for more. Pair them with our cheese stick, a perfect blend of cheesy richness that’s indulgent 
+	but never too much. Whether you're in the mood for a quick snack or something to satisfy your cravings, Hot Potato has the perfect combo for you!
+
+========================= Contacts SECTION =========================
+phone: 09268883090
+email: HOtpotato@gmail.com
+social media: 
+	facebook: https://web.facebook.com/profile.php?id=61559666065673
+
+Location
+#7 Katihan Poblacion, Muntinlupa City @ Caps Foodpark & Garden
+(Near southernside montrssori)

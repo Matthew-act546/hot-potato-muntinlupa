@@ -1,0 +1,11 @@
+@use './_custom' as *; // Use all variables without namespace
+
+@use "./components/mixins";
+@use "./components/_typography";
+@use "./components/breakpoints";
+
+// components(button, card, navbar)
+@use "../styles/sections/navbarCss.scss";
+
+@import "bootstrap/scss/bootstrap"; // Consider moving this to the top or bottom based on preference
+
