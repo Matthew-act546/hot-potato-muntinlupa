@@ -6,6 +6,7 @@ import bbq from "../assets/flavors/bbq.jpg"
 import sweetcorn from "../assets/flavors/sweetcorn.jpg"
 import sourcream from "../assets/flavors/sourcream.jpg"
 import Button from 'react-bootstrap/Button';
+import '../styles/sections/_about.scss';
 
 function About() {
     return(
