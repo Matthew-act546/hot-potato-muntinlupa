@@ -1,7 +1,7 @@
 @use './_custom' as *;
 
 @use "./components/mixins";
-@use "./components/_typography";
+@use "./components/typography";
 
 // components(button, card, navbar)
 @use "../styles/sections/navbarCss.scss";
