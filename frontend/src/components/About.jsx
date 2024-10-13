@@ -12,7 +12,7 @@ function About() {
     return(
         <section id='about'>
             <Container>
-                <h1 className='text-center text-primary'>About</h1>
+                <h1 className='text-center text-primary display--1 about-title'>About</h1>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp; At Hot Potato Muntinlupa, our fries are more than just crispy they’re crave-worthy! With 
                     flavors like classic cheese, bold barbecue, tangy sour & cream, and our top-selling sweet corn,
@@ -21,7 +21,7 @@ function About() {
                     combo for you!
                 </p>
                 <Row>
-                    <Col className='text-center'>
+                    <Col xs={12} sm={6} md={6} lg={3} className='text-center about-container'>
                         <p className='text-primary'><b>Cheese</b></p>
                         <div>
                             <img
@@ -31,7 +31,6 @@ function About() {
                                 height="200"
                                 className="block align-top"
                             />
-                            
                         </div>
                         <div className='mt-3'>
                         <p className='text-left'>
@@ -45,9 +44,9 @@ function About() {
                         <Button variant="primary" className='text-white'>Order Cheese!</Button>
                         </div>
                     </Col>
-                    <Col>
+                    <Col xs={12} sm={6} md={6} lg={3} className='about-container'>
                         <p className='text-secondary text-center'><b>Barbecue</b></p>
-                        <div>
+                        <div className='text-center'>
                             <img 
                                 src={bbq}  
                                 alt="Hot Potato Logo"
@@ -55,18 +54,17 @@ function About() {
                                 height="200"
                                 className="block justify-content-center text-center align-top"
                             />
-                            
                         </div>
-                        <div className='mt-3'>
-                        <p className='text-justify'>
-                            Our Barbeque flavor is like biting into a sizzling, freshly grilled barbecue—smoky, savory, and perfectly seasoned. 
-                            The rich aroma alone is enough to make your mouth water, and with each crispy fry, you’ll enjoy a bold taste, 
-                            flavorful, and drool-worthy.
-                        </p>
-                        <Button variant="secondary" className='text-white'>Order Barbecue!</Button>
+                        <div className='mt-3 text-center'>
+                            <p className='text-justify'>
+                                Our Barbeque flavor is like biting into a sizzling, freshly grilled barbecue—smoky, savory, and perfectly seasoned. 
+                                The rich aroma alone is enough to make your mouth water, and with each crispy fry, you’ll enjoy a bold taste, 
+                                flavorful, and drool-worthy.
+                            </p>
+                            <Button variant="secondary" className='text-white'>Order Barbecue!</Button>
                         </div>
                     </Col>
-                    <Col className='text-center'>
+                    <Col xs={12} sm={6} md={6} lg={3} className='text-center about-container'>
                         <p className='text-secondary'><b>Sour & Cream</b></p>
                         <div>
                             <img
@@ -76,18 +74,17 @@ function About() {
                                 height="200"
                                 className="block align-top"
                             />
-                            
                         </div>
                         <div className='mt-3'>
-                        <p className='text-justify'>
-                            Our Sour & Cream flavor is the perfect mix of smooth and tangy,
-                            making each bite super tasty. With just the right balance of creaminess and a little zing, 
-                            these fries will surely keep you coming back for more!
-                        </p>
+                            <p className='text-justify'>
+                                Our Sour & Cream flavor is the perfect mix of smooth and tangy,
+                                making each bite super tasty. With just the right balance of creaminess and a little zing, 
+                                these fries will surely keep you coming back for more!
+                            </p>
                         <Button variant="secondary" className='text-white'>Order Sour & Cream!</Button>
                         </div>
                     </Col>
-                    <Col className='text-center'>
+                    <Col xs={12} sm={6} md={6} lg={3} className='text-center about-container'>
                     <p className='text-secondary'><b>Sweet Corn</b></p>
                         <div>
                             <img
@@ -100,11 +97,11 @@ function About() {
                             
                         </div>
                         <div className='mt-3'>
-                        <p className='text-justify'>
-                            Our best-selling Sweet Corn flavor is packed with amazing, mouthwatering taste. 
-                            It’s so flavorful and delicious that you’ll be pleasantly surprised by how yummy each bite is!
-                        </p>
-                        <Button variant="secondary" className='text-white'>Order Sweet Corn</Button>
+                            <p className='text-justify'>
+                                Our best-selling Sweet Corn flavor is packed with amazing, mouthwatering taste. 
+                                It’s so flavorful and delicious that you’ll be pleasantly surprised by how yummy each bite is!
+                            </p>
+                            <Button variant="secondary" className='text-white'>Order Sweet Corn</Button>
                         </div>
                     </Col>
                 </Row>
