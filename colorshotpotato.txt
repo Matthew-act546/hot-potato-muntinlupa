@@ -16,6 +16,12 @@ light
 	hex: #f7fcf8
 
 
+sour & Cream	
+	rgb: rgb(157, 200, 0)
+
+Sweet corn
+	rgb: rgb(255, 181, 14)
+
 ========================= DESCRIPTION(ABOUT SECTION) =========================
 about 1 (cheese)
 	Our Cheese flavor at Hot Potato is anything but ordinary.
