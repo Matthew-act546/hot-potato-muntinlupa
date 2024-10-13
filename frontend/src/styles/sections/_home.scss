@@ -1,6 +1,5 @@
 @use '../custom' as *;
 
-
 #home {
     background: rgba(253,169,2,0.2);
 }
@@ -25,28 +24,29 @@
 
     @media (min-width: 576px) {
         margin: 50px 20px;
-        width: 800;
+        width: 300px;
         height: 400px;
     }
 
     @media (min-width: 768px) {
         margin: 50px 20px;
-        width: 800;
-        height: 400px;
+        width: 300px;
+        height: 470px;
     }
 
     @media (min-width: 1200px) {
         margin: 50px 20px;
         max-width: 100%;
-        width: 1000px;
+        width: 750px;
         height: 470px;
     }
 }
 
 .home-hero1 {
-    @media (max-width: 575px) {
-        margin: 0px 20px 50px 20px;
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
     }
+    
     @media (min-width: 1200px) { 
         height: 100vh;
         display: flex;
@@ -54,8 +54,14 @@
     }
     @media (min-width: 768px) { 
         height: 100vh;
-        display: flex;
+        display: flex; 
         align-items: center;
+    }
+    @media (min-width: 1200px) {
+        height: 100vh;
+        display: flex; 
+        align-items: center;
+        margin-left: 60px;
     }
 }
 
