@@ -1,5 +1,5 @@
 import { Navbar, Nav, Offcanvas, Button, Container, NavDropdown } from 'react-bootstrap';
-import '../styles/sections/_navbarCss.scss';
+
 import logo from "../assets/logo.jpg";
 
 function Navigationalbar () {
