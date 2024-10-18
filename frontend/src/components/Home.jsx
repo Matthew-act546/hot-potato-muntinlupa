@@ -11,9 +11,9 @@ function Home () {
         <section id="home">
             <Container>
                 <Row className='row-main'>
-                    <Col s={12} md={6} lg={6} className='order-md-1 order-2 order-sm-2 '>
-                        <div className="d-flex align-items-center home-hero1">
-                            <div className="mx-auto">
+                    <Col s={12} md={6} lg={6} className='order-md-1 order-2 order-sm-2'>
+                        <div className="home-hero1">
+                            <div className="mx-auto ">
                                 <h1 className='text-primary display--1'>Hot potato</h1>
                                 <h6>"Not your ordinary fries"</h6>
                                 <p>
