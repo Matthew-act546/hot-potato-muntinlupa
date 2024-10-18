@@ -4,16 +4,6 @@ $sourc: #9dc800;
 $sweetc: #ffb50e;
 
 
-.custom-carousel {
-    height: 500px;
-    overflow: hidden; /* Prevents overflow */
-  }
-  
-  .custom-carousel img {
-    height: 100%; /* Ensure images take up the full height */
-    height: 100%; /* Maintain the aspect ratio */
-  object-fit: cover; /* Makes the image fill the container without distortion */
-  }
 .btn-sourc {
     background-color: $sourc;
     color: #fff; // Adjust as needed for contrast
