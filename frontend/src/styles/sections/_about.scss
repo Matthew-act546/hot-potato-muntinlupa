@@ -26,7 +26,18 @@ $sweetc: #ffb50e;
     margin-top: 30px;
 }
 
-.about-container {
-    border: 2px hsl(60, 5%, 70%) solid;
-    border-radius: 10px;
+@media (min-width: 1200px) {
+    .about-container {
+        // border: 2px hsl(60, 5%, 70%) solid;
+        border-radius: 10px;
+        height: 100%;
+    }
+}
+
+.about-paragraph {
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+
 }

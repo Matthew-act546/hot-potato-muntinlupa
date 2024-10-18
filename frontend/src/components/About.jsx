@@ -21,60 +21,48 @@ function About() {
                     cheese sticks. Whether for a quick snack or a satisfying treat, Hot Potato has the perfect 
                     combo for you!
                 </p>
-                <Carousel className='custom-carousel' data-bs-theme="dark">
-                    <Carousel.Item>
-                        <img
-                        className='w-100 d-block'
-                        src={cheese}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        src={bbq}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        src={sweetcorn}
-                        alt="Second slide"
-                        />
-                        <Carousel.Caption>
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        src={sourcream}
-                        alt="Third slide"
-                        />
-                        <Carousel.Caption>
-                        <h5>Third slide label</h5>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    </Carousel>
 
                 <Container>
                     <Row>
-                        <Col>About us 
-
+                        <Col lg={4}>
+                            <div className='about-container'>
+                                <p className='display--2 text-center'>About us </p>
+                                <div className=''>
+                                    <img src="https://placehold.co/200" className='mx-auto d-block'  alt="picture of hot potato muntinlupa" />
+                                </div>
+                                <div className='text-justify about-paragraph'>
+                                    <p>Hot Potato in Muntinlupa, opened on July 22, 2024, is owned by Sheryl Anne Cabance and managed by Lheslie C. Fernandez. Located at Cap's Foodpark near SMS Montessori, it is known for its crispy fries and the tagline "Not your ordinary fries."</p>
+                                </div>
+                            </div>
                         </Col>
-                        <Col>Mission</Col>
-                        <Col>3 of 3</Col>
+                        <Col lg={4}>
+                            <div className='about-container'>
+                                <p className='display--2 text-center'>Mission </p>
+                                <div className=''>
+                                    <img src="https://placehold.co/200" className='mx-auto d-block'  alt="picture of mission" />
+                                </div>
+                                <div className='text-justify about-paragraph'>
+                                    <p>
+                                        Our mission at Hot Potato Muntinlupa is to satisfy cravings by offering delicious, high-quality fries in a variety of 
+                                        exciting flavors. We are committed to delivering an unforgettable snacking experience with every 
+                                        bite, ensuring that each customer leaves feeling happy and satisfied.
+                                    </p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={4}>
+                            <div className='about-container'>
+                                <p className='display--2 text-center'>Vision </p>
+                                <div className=''>
+                                    <img src="https://placehold.co/200" className='mx-auto d-block'  alt="picture of mission" />
+                                </div>
+                                <div className='text-justify about-paragraph'>
+                                    <p>The values of Hot Potato are centered on "Quality First," ensuring freshly cooked fries made from top-quality ingredients, and "Customer Satisfaction," prioritizing a delightful and satisfying experience for every customer.</p>
+                                </div>
+                            </div>
+                        </Col>
                     </Row>
+                    <div style={{height: 300}}></div>
                 </Container>
             </Container>
         </section>
