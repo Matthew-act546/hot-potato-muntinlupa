@@ -61,7 +61,6 @@ function About() {
                             </div>
                         </Col>
                     </Row>
-                    <div style={{height: 300}}></div>
                 </Container>
             </Container>
         </section>
