@@ -3,7 +3,6 @@
 $sourc: #9dc800;
 $sweetc: #ffb50e;
 
-
 .btn-sourc {
     background-color: $sourc;
     color: #fff; // Adjust as needed for contrast
@@ -26,18 +25,63 @@ $sweetc: #ffb50e;
     margin-top: 30px;
 }
 
-@media (min-width: 1200px) {
+.about-img {
+    border-radius: 30px;
+}
+
+// @media (min-width: 1200px) {
+//     .about-container {
+//         border-radius: 10px;
+//         height: 100%;
+//         display: flex;
+//         flex-direction: column;
+//         margin: 20px 0;
+//     }
+// }
+
+.about-hr {
+    border-bottom: $primary 1px solid;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 505px) and (max-width: 992px) {
     .about-container {
-        // border: 2px hsl(60, 5%, 70%) solid;
         border-radius: 10px;
-        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-col {
+        margin: 10px 0;
+        border: 2px $primary solid;
+        border-radius: 40px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .about-container {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+    .about-col {
+        border: 2px $primary solid;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-col {
+        border: 2px $primary solid;
+        border-radius: 10px;
+        
     }
 }
 
 .about-paragraph {
     padding: 20px;
-}
-
-@media (min-width: 992px) {
-
 }
