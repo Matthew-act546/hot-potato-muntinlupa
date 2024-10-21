@@ -1,13 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import cheese from "../assets/flavors/cheese.jpg"
-import bbq from "../assets/flavors/bbq.jpg"
-import sweetcorn from "../assets/flavors/sweetcorn.jpg"
-import sourcream from "../assets/flavors/sourcream.jpg"
-import Button from 'react-bootstrap/Button';
 import '../styles/sections/_about.scss';
-import Carousel from 'react-bootstrap/Carousel';
 
 function About() {
     return(
