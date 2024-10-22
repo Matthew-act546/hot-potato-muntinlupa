@@ -5,12 +5,12 @@ $sweetc: #ffb50e;
 
 .btn-sourc {
     background-color: $sourc;
-    color: #fff; // Adjust as needed for contrast
+    color: #fff;
 }
 
 .btn-sweetc {
     background-color: $sweetc;
-    color: #fff; // Adjust as needed for contrast
+    color: #fff; 
 }
 
 .text-sourc {
@@ -29,16 +29,6 @@ $sweetc: #ffb50e;
     border-radius: 30px;
 }
 
-// @media (min-width: 1200px) {
-//     .about-container {
-//         border-radius: 10px;
-//         height: 100%;
-//         display: flex;
-//         flex-direction: column;
-//         margin: 20px 0;
-//     }
-// }
-
 .about-hr {
     border-bottom: $primary 1px solid;
     margin-bottom: 10px;
@@ -54,7 +44,7 @@ $sweetc: #ffb50e;
     .about-col {
         margin: 10px 0;
         border: 2px $primary solid;
-        border-radius: 40px;
+        border-radius: 10px;
         padding: 20px;
     }
 }
@@ -66,11 +56,9 @@ $sweetc: #ffb50e;
         flex-direction: column;
     }
 
-   
-
     .about-col {
         border: 2px $primary solid;
-        border-radius: 40px;
+        border-radius: 10px;
     }
 }
 
@@ -78,7 +66,6 @@ $sweetc: #ffb50e;
     .about-col {
         border: 2px $primary solid;
         border-radius: 10px;
-        
     }
 }
 

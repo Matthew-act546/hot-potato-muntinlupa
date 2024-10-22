@@ -42,7 +42,6 @@
     .home-hero1 {
         margin-bottom: 60px;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -52,27 +51,8 @@
         height: 470px;
     }
     .home-hero1 {
-        
         height: 100%;
         display: flex; 
         align-items: center;
-    }
-
-    
-}
-
-@media (min-width: 1200px) {
-    .home-img {
-        margin: 50px 20px;
-        max-width: 100%;
-        width: 750px;
-        height: 470px;
-        
-    }
-    .home-hero1 {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        
     }
 }
