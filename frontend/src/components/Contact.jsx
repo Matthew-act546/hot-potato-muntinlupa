@@ -1,4 +1,7 @@
 import '../styles/sections/_contacts.scss';
+import {Container, Row, Col} from 'react-bootstrap';
+
+
 
 function Contact() {
     return (
