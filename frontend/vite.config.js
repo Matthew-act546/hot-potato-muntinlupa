@@ -4,11 +4,12 @@ import { createRequire } from 'module';
 
 // Suppress SCSS deprecation warnings
 const require = createRequire(import.meta.url);
-require('sass').info = () => {}; // Disable SCSS deprecation warnings
+require('sass').info = () => {}; 
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+
   css: {
     preprocessorOptions: {
       scss: {
