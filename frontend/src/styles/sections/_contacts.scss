@@ -1,8 +1,23 @@
 #contacts {
-    background-color: rgba(238, 117, 28,0.6);
+    background-color: rgba(238, 117, 28,1);
 }
 
 .contacts-map {
     margin: 0 auto;
     height: auto;
+}
+
+.contact-icons > * {
+    height: 30px;
+    width: 30px;
+}
+.contact-icons {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.contact-icons-parent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
 }

@@ -14,21 +14,25 @@ function Contact() {
                 <Row>
                     <Col lg={6}>
                         <h2 className='display--2 text-white'>Reach us!</h2>
-                        <p className='text-white'>
-                            <br />
-                            Phone: 09268883090 (Smart)
-                            <br />
-                            Email: Hotpotato@gmail.com
-                        </p>
-                        <span className='me-1'>
-                            <FontAwesomeIcon icon={faFacebook} />
-                        </span>
-                        <span className='me-1'>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                        </span>
-                        <span >
-                        <FontAwesomeIcon icon={faPhone} />
-                        </span>
+                        <div className='contact-icons-parent'>
+                            
+                            <div>
+                                <span className='contact-icons text-black'>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                                </span> 
+                            </div>
+                            <div>
+                                <span className='contact-icons'>
+                                    <FontAwesomeIcon icon={faFacebook} />
+                                </span>
+                            </div>
+                            <div>
+                                <span className='contact-icons text-black'>
+                                <FontAwesomeIcon icon={faPhone} />
+                                </span> 09268883090 (Smart)
+                            </div>
+
+                        </div>
                     </Col>
 
                     <Col lg={6}>
