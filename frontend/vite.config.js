@@ -1,16 +1,15 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { createRequire } from 'module';
+import process from 'node:process';
 
-// Suppress SCSS deprecation warnings
-const require = createRequire(import.meta.url);
-require('sass').info = () => {}; 
+process.env.SASS_SUPPRESS_DEPRECATION_WARNINGS = 'true';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: process.env.VITE_BASE_PATH || "/hot-potato-muntinlupa",
   server: {
-    port: 3000, // Change if needed
+    port: 3333, 
   },
   css: {
     preprocessorOptions: {
