@@ -15,7 +15,7 @@ function Home () {
                         <div className="home-hero1">
                             <div className="mx-auto ">
                                 <h1 className='text-primary display--1'>Hot potato</h1>
-                                <h6>"Not your ordinary fries"</h6>
+                                <h6>&quot;Not your ordinary fries&quot;</h6>
                                 <p>
                                     Hot Potato is your go-to snack spot at Caps Foodpark, near Montessori School. 
                                     We serve delicious fries in unique flavors and tasty cheese sticks that will satisfy your cravings!

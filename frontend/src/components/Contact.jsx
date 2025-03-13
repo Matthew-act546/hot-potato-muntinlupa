@@ -1,6 +1,5 @@
 import '../styles/sections/_contacts.scss';
 import {Container, Row, Col} from 'react-bootstrap';
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -36,7 +35,7 @@ function Contact() {
                     </Col>
 
                     <Col lg={6}>
-                        <h2 className='display--2 mb-2 text-white text-center'>Cap's Foodpark Map</h2>
+                        <h2 className='display--2 mb-2 text-white text-center'>Cap&aposs Foodpark Map</h2>
                         <pre className='text-white text-center'>Location: 
                         #7 Katihan Poblacion, Muntinlupa City @ <br />Caps Foodpark & Garden
                         (Near southernside montrssori)</pre>

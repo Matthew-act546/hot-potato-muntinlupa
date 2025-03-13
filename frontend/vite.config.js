@@ -9,7 +9,9 @@ require('sass').info = () => {};
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-
+  server: {
+    port: 3000, // Change if needed
+  },
   css: {
     preprocessorOptions: {
       scss: {
