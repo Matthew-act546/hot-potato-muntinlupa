@@ -33,7 +33,7 @@ function Contact() {
                     </Col>
 
                     <Col lg={6}>
-                        <h2 className='display--2 mb-2 text-white text-center'>Cap's Foodpark Map</h2>
+                        <h2 className='display--2 mb-2 text-white text-center'>Cap&apos;s Foodpark Map</h2>
                         <p className='text-white text-center'>Location: 
                         #7 Katihan Poblacion, Muntinlupa City @ <br />Caps Foodpark & Garden
                         (Near southernside montrssori)</p>
