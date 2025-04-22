@@ -1,0 +1,22 @@
+app.jsx
+
+    // const [message, setMessage] = useState("");
+
+    // const fetchData = async () => {
+    //   try {
+    //       const response = await axiosInstance.get('/api/data');
+    //       console.log(response.data);  // Logs the data
+    //       setMessage(response.data.message);  // Update state with the API message
+    //   } catch (error) {
+    //       console.error("Axios error:", error);
+    //   }
+    // };
+
+    // useEffect(() => {
+    //   axios.get('http://localhost:8000/api')
+    //     .then(response => {
+    //       console.log(response.data);// Logs: { message: "Hello from Django" }
+    //       setMessage(response.data.message);  // Update state with the API message
+    //     })
+    //     .catch(error => console.error("Axios error:", error));
+    // }, []);
