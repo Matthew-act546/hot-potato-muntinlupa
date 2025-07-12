@@ -25,7 +25,7 @@ function About() {
                                     <img src="https://placehold.co/200" className='mx-auto d-block about-img'  alt="picture of hot potato muntinlupa" />
                                 </div>
                                 <div className='text-justify about-paragraph'>
-                                    <p>Hot Potato in Muntinlupa, opened on July 22, 2024, is owned by Sheryl Anne Cabance and managed by Lheslie C. Fernandez. Located at Cap's Foodpark near SMS Montessori, it is known for its crispy fries and the tagline "Not your ordinary fries."</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum adipisci molestias aliquam! Incidunt blanditiis debitis ea explicabo reiciendis, ex, ipsum veniam quis doloremque molestiae atque in asperiores autem impedit et obcaecati voluptas sit eligendi quo tempore. Praesentium, incidunt? Asperiores.</p>
                                 </div>
                             </div>
                         </Col>
